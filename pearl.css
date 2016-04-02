@@ -1,0 +1,708 @@
+/* 
+    Document   : pearl
+    Created on : Mar 16, 2016, 2:09:16 PM
+    Author     : Vishnu Nair
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* Body tag:- Common for all web pages */
+body
+{
+   background-color:#fff; 
+   margin:0px; 
+   padding:0px;
+}
+
+/* Grid tags for responsive designs */
+
+/* Chamber:- Container for a section */
+.chamber
+{
+    width: 100%;
+}
+
+/* Cell:- A part inside the container */
+
+.cell
+{
+   float:left;
+   width:100%;
+   height:auto;
+}
+/* cls-1:- Span 1 column */
+
+.cls-1
+{
+   float:left;
+   min-width: 75px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 10%;
+   height: auto;
+}
+/* cls-2:- Span 2 column */
+
+.cls-2
+{
+   float:left;
+   min-width: 75px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+   height: auto;
+}
+/* cls-3:- Span 3 column */
+
+.cls-3
+{
+   float:left;
+   min-width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height: auto;
+}
+/* cls-4:- Span 4 column */
+
+.cls-4
+{
+   float:left;
+   min-width: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   height: auto;
+}
+/* cls-5:- Span 5 column */
+
+.cls-5
+{
+   float:left;
+   min-width: 125px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: auto;
+}
+/* cls-6:- Span 6 column */
+
+.cls-6
+{
+   float:left;
+   min-width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   height: auto;
+}
+/* cls-7:- Span 7 column */
+
+.cls-7
+{
+   float:left;
+   min-width: 175px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   height: auto;
+}
+/* cls-8:- Span 8 column */
+
+.cls-8
+{
+   float:left;
+   min-width: 200px;
+   width: 80%;
+   height: auto;
+}
+/* cls-9:- Span 9 column */
+
+.cls-9
+{
+   float:left;
+   alignment-adjust: central;
+   min-width: 225px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   height: auto;
+}
+/* cls-10:- Span 10 column */
+
+.cls-10
+{
+   float:left;
+   min-width: 250px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: auto;
+}
+/* Style for the responsive images */
+.img-responsive
+{
+    width: 100%;
+    height: auto;
+}
+.sidenav
+{
+    padding-top: 3%;
+    background-color: #fff;
+    opacity: 0.9;
+    width: 275px;
+    font-family: Courier New, monospace;
+    border: #bebfc1 thin solid;
+    float: left;
+    position:absolute;
+}
+.side-nav
+{
+    padding-top: 3%;
+    background-color: #fff;
+    opacity: 0.9;
+    width: 275px;
+    font-family: Courier New, monospace;
+    border: #bebfc1 thin solid;
+    float: left;
+    position:absolute;
+} 
+.menu
+{
+    cursor: pointer;
+}
+.sidenav a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: normal;
+    width: 100%;
+    color: #000;
+}
+.side-nav a
+{
+    text-decoration: none;
+    font-size: 23px;
+    margin: 30px;
+    font-weight: normal;
+    width: 100%;
+    color: #000;
+}
+.sidenav a:hover
+{
+    color:#16527d;
+    font-weight: bold;
+}
+.side-nav a:hover
+{
+    color:#16527d;
+    font-weight: bold;
+}
+.s1{
+    background-color: #cccccc; width: 1%; height: 50px;
+}
+.s1s{
+    background-color: #cccccc; width: 1%; height: 50px;
+}
+.s3{
+    background-color: #cccccc; width: 3%; height: 50px;
+}
+.s2{
+    background-color: #cccccc; width: 2%; height: 50px;
+    font-size: 18px;
+}
+@media (max-width: 800px) {
+    .s1s{ font-size: 8px; }
+}
+
+.btn-def
+{
+    padding: 6px 12px 6px 12px;
+    background-color: #fff;
+    color: #000;
+    font-size: 17px;
+    border: #999999 solid 1px;
+    border-radius: 4px;
+}
+.btn-def:hover
+{
+    background-color: #c9c9c9;
+}
+.btn-prm
+{
+    padding: 6px 12px 6px 12px;
+    background-color: #0174c5;
+    color: #fff;
+    font-size: 17px;
+    border: #0174c5 solid 1px;
+    border-radius: 4px;
+}
+.btn-prm:hover
+{
+    background-color: #1f69a0;
+}
+.btn-suc
+{
+    padding: 6px 12px 6px 12px;
+    background-color: #24ac34;
+    color: #fff;
+    font-size: 17px;
+    border: #24ac34 solid 1px;
+    border-radius: 4px;
+}
+.btn-suc:hover
+{
+    background-color: #127c25;
+}
+.btn-info
+{
+    padding: 6px 12px 6px 12px;
+    background-color: #0ec8ea;
+    color: #fff;
+    font-size: 17px;
+    border: #0ec8ea solid 1px;
+    border-radius: 4px;
+}
+.btn-info:hover
+{
+    background-color: #33aeb1;
+}
+.btn-war{
+    padding: 6px 12px 6px 12px;
+    background-color: #fac831;
+    color: #fff;
+    font-size: 17px;
+    border: #fac831 solid 1px;
+    border-radius: 4px;
+}
+.btn-war:hover
+{
+    background-color: #d9d00c;
+}
+.btn-dan{
+    padding: 6px 12px 6px 12px;
+    background-color: #fa3d3d;
+    color: #fff;
+    font-size: 17px;
+    border: #fa3d3d solid 1px;
+    border-radius: 4px;
+}
+.btn-dan:hover
+{
+    background-color: #bb3a31;
+}
+@media (max-width: 350px) {
+   body h1 { font-size: 120%; color:#fff; }
+   body h2 { font-size: 100%;  color:#fff; }
+   body h3 { font-size: 80%;  color:#fff; }
+   body h4 { font-size: 60%;  color:#fff; }
+   body h5 { font-size: 50%;  color:#fff; }
+   body h6 { font-size: 40%;  color:#fff;}
+}
+@media (min-width: 350px) {
+    body h1 { font-size: 140%;  color:#fff;}
+   body h2 { font-size: 120%; color:#fff; }
+   body h3 { font-size: 100%; color:#fff; }
+   body h4 { font-size: 80%;  color:#fff;}
+   body h5 { font-size: 70%;  color:#fff;}
+   body h6 { font-size: 60%;  color:#fff;}
+}
+@media (min-width: 400px) {
+    body h1 { font-size: 140%; color:#fff; }
+   body h2 { font-size: 120%;  color:#fff;}
+   body h3 { font-size: 100%; color:#fff; }
+   body h4 { font-size: 80%; color:#fff; }
+   body h5 { font-size: 70%; color:#fff; }
+   body h6 { font-size: 60%; color:#fff; }
+}
+@media (min-width: 500px) {
+    body h1 { font-size: 140%; color:#fff; }
+   body h2 { font-size: 120%;  color:#fff;}
+   body h3 { font-size: 100%; color:#fff; }
+   body h4 { font-size: 80%; color:#fff; }
+   body h5 { font-size: 70%; color:#fff; }
+   body h6 { font-size: 60%;  color:#fff;}
+}
+@media (min-width: 700px) {
+    body h1 { font-size: 150%; color:#fff; }
+   body h2 { font-size: 130%; color:#fff; }
+   body h3 { font-size: 110%; color:#fff; }
+   body h4 { font-size: 90%; color:#fff; }
+   body h5 { font-size: 80%; color:#fff; }
+   body h6 { font-size: 70%;  color:#fff;}
+}
+h1{
+    color:#fff;
+}
+h2{
+    color:#fff;
+}
+h3{
+    color:#fff;
+}
+h4{
+    color:#fff;
+}
+h5{
+    color:#fff;
+}
+.def
+{
+    background-color: #e1e2e6;
+    border-radius: 6px;
+}
+.def h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.prm
+{
+    background-color: #1b7eda;
+    border-radius: 6px;
+    color:#fff;
+}
+.prm h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.suc
+{
+    background-color: #09a414;
+    border-radius: 6px;
+    color:#fff;
+}
+.suc h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.info
+{
+    background-color: #24d4f4;
+    border-radius: 6px;
+    color:#fff;
+}
+.info h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.war
+{
+    background-color: #f4ca24;
+    border-radius: 6px;
+    color:#fff;
+}
+.war h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.dan
+{
+    background-color: #fe0718;
+    border-radius: 6px;
+    color:#fff;
+}
+.dan h5
+{
+    font-weight: normal;
+    line-height: 0px;
+}
+.alert
+{
+    padding-left: 30%;
+    cursor: pointer;
+}
+.pagination ul
+{
+    list-style: none;
+}
+.pagination ul li
+{
+    float: left;
+    padding: 10px;
+    border: #cacbcc solid thin;
+}
+.pagination a
+{
+    color: #258fe6;
+    text-decoration: none;
+}
+.active{
+    background-color: #258fe6;
+    
+}
+.active a
+{
+    color: #fff;
+}
+.pager ul
+{
+    list-style: none;
+}
+.pager ul li{
+    float: left;
+    padding: 5px 10px 5px 10px;
+    border: #cacbcc solid thin;
+    border-radius: 8px;
+}
+.pager a
+{
+    color:#0086b3;
+    text-decoration: none;
+}
+.pager ul li:hover
+{
+    background-color: #d8dee3;
+}
+.span-pager
+{
+    margin-left: 30%;
+}
+.lgroup
+{
+    list-style: none;
+}
+.lgitem{
+    padding: 10px;
+    border:  #959393 solid thin;
+}
+.link:hover
+{
+    background-color: #e1dede;
+}
+.swell
+{
+    background-color: #eaebeb;
+    padding: 10px;
+     border-radius: 6px;
+}
+.nwell{
+    background-color: #eaebeb;
+    padding: 20px;
+    border-radius: 6px;
+}
+.lwell{
+    background-color: #eaebeb;
+    padding: 30px;
+    border-radius: 6px;
+}
+.badge
+{
+    background-color: #b9b0b0;
+    border-radius: 20px;
+    padding: 5px;
+    color:#fff;
+}
+a{text-decoration: none; color: #0066cc;}
+.bt-badge
+{
+background-color: #fff;
+border-radius: 20px;
+padding: 5px;
+color:#000
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0c86d9;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2b72a2;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* Style for progress bar*/
+#myProgress {
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 10%;
+  height: 100%;
+  background-color: #0d6ab6;
+}
+
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+.Pearl-tabs
+{
+    color:#0099ff;
+    list-style: none;
+}
+.Pearl-tabs li
+{
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.Pearl-tabs li:hover
+{
+    background-color: #0033cc;
+    border-radius: 6px;
+    color:#fff;
+}
+.Pearl-tab1
+{
+    color:#0099ff;
+    list-style: none;
+}
+.Pearl-tab1 li
+{
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.Pearl-tab1 li:hover
+{
+    border-radius: 6px;
+    color:#330099;
+}
+.collapsible
+{
+    display: none;
+}
+.txt
+{
+    height: 30px;
+    border-radius: 5px;
+    border: #999999 solid thin;
+    font-size: 20px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li
+{
+    float:left;
+    padding-left: 30px;
+}
+.nav a
+{
+    color: #fff;
+}
+.nav a:hover
+{
+    color: #000000;
+}
+
+@media (min-width: 1200px) {
+    .nav-menu{ display: none;}
+    .nav{ display:block;}
+}
+@media (max-width: 1200px) {
+    .nav-menu{display: block; cursor: pointer; margin-left: 10px; margin-top: 18px;}
+    .nav
+    {
+        background-color: #fff;
+        display: none;
+        width:200px;
+        height: auto;
+        border: #666666 solid thin;
+        position: relative;
+    }
+    .nav ul li
+    {
+        float: none;
+        padding-left: 0px;
+    }
+    .nav a
+    {
+        color: #000;
+    }
+    .nav a:hover
+    {
+        color: #000099;
+    }
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.model-header
+{
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 8px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.slc
+{
+    background-color: #fff;
+    color:#000;
+    width: 300px;
+    height: 40px;
+    border: #12e2df solid thin;
+}
